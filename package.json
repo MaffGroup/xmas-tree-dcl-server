@@ -1,5 +1,6 @@
 {
   "name": "xmas-tree-dcl-server",
+  "author": "https://github.com/bikevit2008",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
