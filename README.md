@@ -26,9 +26,9 @@ sudo node app.js
 1. You need global installed PM2
 2. You need use theese commands
 ````shell
-pi@raspberrypi:~/xmas-tree-server $ pm2 start npm --name tree_server  -- start
-pi@raspberrypi:~/xmas-tree-server $ sudo env PATH=$PATH:/usr/local/bin pm2 startup systemd -u pi --hp /home/pi
-pi@raspberrypi:~/xmas-tree-server $ pm2 save
+pi@raspberrypi:~/xmas-tree-dcl-server $ pm2 start npm --name tree_server  -- start
+pi@raspberrypi:~/xmas-tree-dcl-server $ sudo env PATH=$PATH:/usr/local/bin pm2 startup systemd -u pi --hp /home/pi
+pi@raspberrypi:~/xmas-tree-dcl-server $ pm2 save
 ````
 
 ### Set led strip length and count leds in one group if you need (Optional)
