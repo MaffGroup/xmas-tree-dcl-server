@@ -20,6 +20,7 @@ sudo node app.js
             ssl_key_path: './xmas-privkey.pem'
         }
 ````
+*You can get free cert with certbot from Let's Encrypt
 
 ### Do auto-startup by PM2
 1. You need global installed PM2
